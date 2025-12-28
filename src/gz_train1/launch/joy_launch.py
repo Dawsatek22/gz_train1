@@ -49,10 +49,7 @@ def generate_launch_description():
     ])
     
  
-    world_arg = DeclareLaunchArgument(
-        'world', default_value='worlds/t1.sdf',
-        description='Name of the Gazebo world file to load'
-    )
+  
         
     gazebo_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -61,7 +58,7 @@ def generate_launch_description():
         launch_arguments={'gz_args': [PathJoinSubstitution([
             gazebo_basics_pkg,
             'worlds',
-            't1.sdf'
+            'joy_world.sdf'
         ]),
         #TextSubstitution(text=' -r -v -v1 --render-engine ogre')],
         TextSubstitution(text=' -r -v -v4')],
@@ -72,7 +69,7 @@ def generate_launch_description():
     joy = Node(package='gz_train1',
                     namespace='joynode'
                     ,executable='joy1',
-                    #remappings=[('/joy1', '/joy')],
+                    remappings=[('/joy1', '/joysub')],
                     name='pub3',
                      output='screen')
     # the node that publish the robot state  
@@ -115,9 +112,12 @@ def generate_launch_description():
     name="joy_bridge",
     namespace='joy_trigger',
     arguments=['/joy1@std_msgs/msg/Int32@gz.msgs.Int32'],
-    #remappings=[('/joy1', '/joy')],
+    remappings=[('/joy1', '/joysub')],
     output='screen'
-   
+   ,
+        parameters=[
+            {'use_sim_time': True},
+        ]
 )
                     
     launchDescriptionObject = LaunchDescription()
@@ -132,7 +132,7 @@ def generate_launch_description():
     launchDescriptionObject.add_action(rviz_arg)
     launchDescriptionObject.add_action(model_arg)
     launchDescriptionObject.add_action(urdf_rviz)
-    #launchDescriptionObject.add_action(world_arg)
+    
     launchDescriptionObject.add_action(robot_state_publisher_node)
     launchDescriptionObject.add_action(joint_state_publisher_gui_node)
     return launchDescriptionObject
