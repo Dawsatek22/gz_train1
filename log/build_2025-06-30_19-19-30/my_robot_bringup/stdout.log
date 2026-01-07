@@ -1,0 +1,12 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/d22/gz_projects/gz_ws/build/my_robot_bringup
+-- Install configuration: ""
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//launch
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.py
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//rviz
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//rviz/urdf_config.rviz
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//worlds
+-- Installing: /home/d22/gz_projects/gz_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/test_world.world

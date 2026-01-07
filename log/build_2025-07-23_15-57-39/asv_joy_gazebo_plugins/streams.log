@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/d22/gz_projects/gz_ws/build/asv_joy_gazebo_plugins': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/asv_joy/asv_joy_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/asv_joy_gazebo_plugins
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.090s] -- The CXX compiler identification is GNU 13.3.0
+[0.102s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.253s] -- Detecting CXX compiler ABI info - done
+[0.259s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.259s] -- Detecting CXX compile features
+[0.259s] -- Detecting CXX compile features - done
+[0.268s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.268s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.269s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.269s]   CMake did not find one.
+[0.269s] 
+[0.269s]   Could not find a package configuration file provided by "catkin" with any
+[0.269s]   of the following names:
+[0.269s] 
+[0.269s]     catkinConfig.cmake
+[0.269s]     catkin-config.cmake
+[0.269s] 
+[0.269s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.269s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.270s]   provides a separate development package or SDK, be sure it has been
+[0.270s]   installed.
+[0.270s] 
+[0.270s] [0m
+[0.270s] -- Configuring incomplete, errors occurred!
+[0.271s] Invoked command in '/home/d22/gz_projects/gz_ws/build/asv_joy_gazebo_plugins' returned '1': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/asv_joy/asv_joy_gazebo_plugins -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/asv_joy_gazebo_plugins

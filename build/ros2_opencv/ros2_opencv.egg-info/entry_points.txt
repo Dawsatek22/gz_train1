@@ -1,0 +1,6 @@
+[console_scripts]
+camera_publisher_node = ros2_opencv.cameraPublisher:main
+image_detection = ros2_opencv.image_detection:main
+robot_control = ros2_opencv.robot_control:main
+subscriber_image_node = ros2_opencv.subscriberImage:main
+webcam_processing = ros2_opencv.webcam_processing:main

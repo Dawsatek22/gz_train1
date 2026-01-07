@@ -1,0 +1,21 @@
+[0.007s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1
+[0.020s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.165s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.183s] Traceback (most recent call last):
+[0.184s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.185s]     from catkin_pkg.package import parse_package_string
+[0.185s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.188s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.188s]   execute_process(/home/d22/miniconda3/bin/python3
+[0.188s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.188s]   /home/d22/gz_projects/gz_ws/src/out1/out1/package.xml
+[0.188s]   /home/d22/gz_projects/gz_ws/build/out1/ament_cmake_core/package.cmake)
+[0.188s]   returned error code 1
+[0.188s] Call Stack (most recent call first):
+[0.188s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.188s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.188s]   CMakeLists.txt:15 (ament_lint_auto_find_test_dependencies)
+[0.188s] 
+[0.188s] [0m
+[0.188s] -- Configuring incomplete, errors occurred!
+[0.190s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1

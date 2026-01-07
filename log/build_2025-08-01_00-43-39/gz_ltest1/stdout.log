@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/launch1.xml
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/__pycache__
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/__pycache__/gz_launch.cpython-312.pyc
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/gz_launch.py
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//models
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//models/testbuild3.sdf
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/package_run_dependencies/gz_ltest1
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/parent_prefix_path/gz_ltest1
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.sh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.sh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.bash
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.sh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.zsh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/packages/gz_ltest1
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config.cmake
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config-version.cmake
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.xml

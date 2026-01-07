@@ -1,0 +1,27 @@
+[0.008s] Invoking command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/gz_ltest1 -- -j20 -l20
+[0.041s] Invoked command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/gz_ltest1 -- -j20 -l20
+[0.048s] Invoking command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/gz_ltest1
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/launch1.xml
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/__pycache__
+[0.055s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/__pycache__/gz_launch.cpython-312.pyc
+[0.055s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/gz_launch.py
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//models
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//models/testbuild3.sdf
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/package_run_dependencies/gz_ltest1
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/parent_prefix_path/gz_ltest1
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.sh
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.dsv
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.bash
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.sh
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.zsh
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.dsv
+[0.056s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.dsv
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/packages/gz_ltest1
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config.cmake
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config-version.cmake
+[0.056s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.xml
+[0.057s] Invoked command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/gz_ltest1

@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.098s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.247s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /home/d22/miniconda3/bin/python3 (found version "3.13.2") found components: Interpreter 
+[0.416s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.433s] Traceback (most recent call last):
+[0.435s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.435s]     from catkin_pkg.package import parse_package_string
+[0.435s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.438s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.438s]   execute_process(/home/d22/miniconda3/bin/python3
+[0.438s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.438s]   /home/d22/gz_projects/gz_ws/src/out1/out1/package.xml
+[0.439s]   /home/d22/gz_projects/gz_ws/build/out1/ament_cmake_core/package.cmake)
+[0.439s]   returned error code 1
+[0.439s] Call Stack (most recent call first):
+[0.439s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.439s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.439s]   CMakeLists.txt:15 (ament_lint_auto_find_test_dependencies)
+[0.439s] 
+[0.439s] [0m
+[0.439s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/d22/pipbot/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/d22/gz_projects/gz_ws/build/gz_ltest1
+-- Install configuration: ""
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/launch1.xml
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/__pycache__
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/__pycache__/gz_launch.cpython-312.pyc
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//launch/gz_launch.py
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//models
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1//models/testbuild3.sdf
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/package_run_dependencies/gz_ltest1
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/parent_prefix_path/gz_ltest1
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.sh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.sh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.bash
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.sh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.zsh
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.dsv
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/packages/gz_ltest1
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config.cmake
+-- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config-version.cmake
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.xml

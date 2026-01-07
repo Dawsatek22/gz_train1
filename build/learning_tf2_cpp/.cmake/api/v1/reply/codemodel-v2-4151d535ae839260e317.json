@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-25208c9cfa836d53fe9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "learning_tf2_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "learning_tf2_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-learning_tf2_cpp_uninstall-1827f6eed4eb898b2570.json",
+					"name" : "learning_tf2_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_turtle_tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_turtle_tf2_broadcaster-41e038e2d681c2fe08af.json",
+					"name" : "static_turtle_tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_tf2_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_tf2_broadcaster-a32f5a3d6d49a82ad782.json",
+					"name" : "turtle_tf2_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-20c4e7ae2d3b41f0431d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/d22/gz_projects/gz_ws/build/learning_tf2_cpp",
+		"source" : "/home/d22/gz_projects/gz_ws/src/learning_tf2_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

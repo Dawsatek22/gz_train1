@@ -1,0 +1,10 @@
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/uninstall.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/urdf_tutorial_cpp_uninstall.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/urdf_tutorial_cpp.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/test.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/edit_cache.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/rebuild_cache.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/list_install_components.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/install.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/install/local.dir
+/home/d22/gz_projects/gz_ws/build/urdf_tutorial_cpp/CMakeFiles/install/strip.dir

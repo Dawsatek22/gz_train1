@@ -1,0 +1,134 @@
+<sdf version='1.11'>
+  <model name='2wheelv1'>
+    <link name='l_chassis001'>
+      <inertial>
+        <pose>0.21574099999999999 0.23539199999999999 0.31 0 0 0</pose>
+        <mass>0.56772610567450021</mass>
+        <inertia>
+          <ixx>0.00018970058464682651</ixx>
+          <ixy>0</ixy>
+          <ixz>2.905726432800293e-19</ixz>
+          <iyy>0.00019372175779931199</iyy>
+          <iyz>1.7434358596801761e-19</iyz>
+          <izz>0.00034590575832520599</izz>
+        </inertia>
+      </inertial>
+      <collision name='l_chassis001_collision'>
+        <pose>0.29999999999999999 0.29999999999999999 0.29999999999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://2wheelv1/meshes/_wheelert1_col_chassis_col_obj_vyrpdu.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='l_chassis001_visual'>
+        <pose>0.29999999999999999 0.29999999999999999 0.29999999999999999 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://2wheelv1/meshes/_wheelert1_chassis_iup9wg.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='l_chassis001__to__l_wheel003' type='revolute'>
+      <pose relative_to='l_chassis001'>0.18074100000000001 0.21560799999999999 0.31 0 1.5707963267948966 0</pose>
+      <parent>l_chassis001</parent>
+      <child>l_wheel003</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='l_wheel003'>
+      <pose relative_to='l_chassis001__to__l_wheel003'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 -0.014 0 0 0</pose>
+        <mass>0.061261056745000958</mass>
+        <inertia>
+          <ixx>4.2014952750946994e-06</ixx>
+          <ixy>8.9327486194334237e-23</ixy>
+          <ixz>1.933130988618359e-22</ixz>
+          <iyy>4.201495275094635e-06</iyy>
+          <iyz>-9.4702407357899264e-23</iyz>
+          <izz>6.2792661163626356e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='l_wheel003_collision'>
+        <pose>0 0 -0.02 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://2wheelv1/meshes/_wheelert1_col_wheel2_col_obj_7jhweq.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='l_wheel003_visual'>
+        <pose>0 0 -0.02 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://2wheelv1/meshes/_wheelert1_wheel2_sx7jdn.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='l_chassis001__to__l_wheel005' type='revolute'>
+      <pose relative_to='l_chassis001'>0.25074099999999999 0.21560799999999999 0.31 3.1415926535897931 1.5707963267948966 0</pose>
+      <parent>l_chassis001</parent>
+      <child>l_wheel005</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-inf</lower>
+          <upper>inf</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='l_wheel005'>
+      <pose relative_to='l_chassis001__to__l_wheel005'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0 0 -0.014 0 0 0</pose>
+        <mass>0.061261056745000958</mass>
+        <inertia>
+          <ixx>4.2014952750946994e-06</ixx>
+          <ixy>8.9327486194334237e-23</ixy>
+          <ixz>1.933130988618359e-22</ixz>
+          <iyy>4.201495275094635e-06</iyy>
+          <iyz>-9.4702407357899264e-23</iyz>
+          <izz>6.2792661163626356e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='l_wheel005_collision'>
+        <pose>0 0 -0.02 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://2wheelv1/meshes/_wheelert1_col_wheel1_col_obj_krguef.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='l_wheel005_visual'>
+        <pose>0.17100000000000001 0 -0.02 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://2wheelv1/meshes/_wheelert1_wheel1_lv2cq1.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1
+[0.018s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.148s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.149s] -- Configuring done (0.1s)
+[0.150s] -- Generating done (0.0s)
+[0.150s] -- Build files have been written to: /home/d22/gz_projects/gz_ws/build/out1
+[0.153s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1
+[0.154s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/out1 -- -j20 -l20
+[0.184s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/out1 -- -j20 -l20
+[0.191s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/out1
+[0.198s] -- Install configuration: ""
+[0.198s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch
+[0.198s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/gazebo.launch.py
+[0.198s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/description.launch.py
+[0.198s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/display.launch.py
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_joint002_col_obj_zohxuk.dae
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_base003_col_obj_hpdclh.dae
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_joint1_ckncud.dae
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_base2_bnpdzh.dae
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz/robot_description.rviz
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_sensors.urdf.xacro
+[0.199s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_wrapper.urdf.xacro
+[0.200s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof.urdf
+[0.200s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds
+[0.200s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/cars_and_trees.sdf
+[0.200s] -- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/empty.sdf
+[0.201s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/out1

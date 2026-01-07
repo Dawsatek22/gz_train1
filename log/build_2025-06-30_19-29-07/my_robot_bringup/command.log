@@ -1,0 +1,1 @@
+Invoking command in '/home/d22/gz_projects/gz_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/my_robot_bringup -- -j20 -l20

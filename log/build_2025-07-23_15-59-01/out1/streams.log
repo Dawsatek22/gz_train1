@@ -1,0 +1,7 @@
+[0.006s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1
+[0.015s] -- Configuring incomplete, errors occurred!
+[0.015s] [31mCMake Error at CMakeLists.txt:15:
+[0.015s]   Parse error.  Expected a command name, got unquoted argument with text "=".
+[0.015s] 
+[0.015s] [0m
+[0.016s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/out1/out1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/out1

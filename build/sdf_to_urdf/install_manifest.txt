@@ -1,0 +1,16 @@
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/ament_index/resource_index/package_run_dependencies/sdf_to_urdf
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/ament_index/resource_index/parent_prefix_path/sdf_to_urdf
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/environment/ament_prefix_path.sh
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/environment/ament_prefix_path.dsv
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/environment/path.sh
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/environment/path.dsv
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/local_setup.bash
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/local_setup.sh
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/local_setup.zsh
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/local_setup.dsv
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/package.dsv
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/ament_index/resource_index/packages/sdf_to_urdf
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/cmake/sdf_to_urdfConfig.cmake
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/cmake/sdf_to_urdfConfig-version.cmake
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/share/sdf_to_urdf/package.xml
+/home/d22/gz_projects/gz_ws/install/sdf_to_urdf/lib/sdf_to_urdf/sdf_to_urdf

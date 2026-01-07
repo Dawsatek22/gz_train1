@@ -1,0 +1,16 @@
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/lib/cpp_pubsub3/pub3
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub3
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub3
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/environment/ament_prefix_path.sh
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/environment/ament_prefix_path.dsv
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/environment/path.sh
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/environment/path.dsv
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/local_setup.bash
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/local_setup.sh
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/local_setup.zsh
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/local_setup.dsv
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/package.dsv
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/ament_index/resource_index/packages/cpp_pubsub3
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/cmake/cpp_pubsub3Config.cmake
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/cmake/cpp_pubsub3Config-version.cmake
+/home/d22/gz_projects/gz_ws/install/cpp_pubsub3/share/cpp_pubsub3/package.xml

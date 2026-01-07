@@ -1,0 +1,56 @@
+[0.017s] Invoking command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/gz_ltest1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/gz_ltest1
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.104s] -- The CXX compiler identification is GNU 13.3.0
+[0.116s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.202s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.202s] -- Detecting C compile features
+[0.202s] -- Detecting C compile features - done
+[0.212s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /home/d22/pipbot/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.490s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.531s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.550s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.610s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.663s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.786s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.863s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.939s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.940s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.940s] -- Added test 'lint_cmake' to check CMake code style
+[0.940s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.941s] -- Added test 'xmllint' to check XML markup files
+[0.942s] -- Configuring done (0.9s)
+[0.944s] -- Generating done (0.0s)
+[0.946s] -- Build files have been written to: /home/d22/gz_projects/gz_ws/build/gz_ltest1
+[0.953s] Invoked command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/gz_ltest1 -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/gz_ltest1
+[0.954s] Invoking command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/gz_ltest1 -- -j20 -l20
+[0.988s] Invoked command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/gz_ltest1 -- -j20 -l20
+[0.999s] Invoking command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/gz_ltest1
+[1.007s] -- Install configuration: ""
+[1.007s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/package_run_dependencies/gz_ltest1
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/parent_prefix_path/gz_ltest1
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.sh
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/ament_prefix_path.dsv
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.sh
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/environment/path.dsv
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.bash
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.sh
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.zsh
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/local_setup.dsv
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.dsv
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/ament_index/resource_index/packages/gz_ltest1
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config.cmake
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/cmake/gz_ltest1Config-version.cmake
+[1.008s] -- Installing: /home/d22/gz_projects/gz_ws/install/gz_ltest1/share/gz_ltest1/package.xml
+[1.009s] Invoked command in '/home/d22/gz_projects/gz_ws/build/gz_ltest1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/gz_ltest1

@@ -1,0 +1,14 @@
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//config/joints.yaml
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//config/diffdrive.yaml
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//config/head.yaml
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//config/gripper.yaml
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//launch/09-joints.launch
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//launch/gazebo.launch
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//launch/13-diffdrive.launch
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//launch/12-gripper.launch
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//launch/10-head.launch
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//urdf/13-diffdrive.urdf.xacro
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//urdf/11-limittransmission.urdf.xacro
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//urdf/09-publishjoints.urdf.xacro
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//urdf/10-firsttransmission.urdf.xacro
+/home/d22/gz_projects/gz_ws/install/urdf_sim_tutorial/share/urdf_sim_tutorial//urdf/12-gripper.urdf.xacro

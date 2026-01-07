@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-53a98d811b528ac5a327.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gz_train1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gz_train1_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gz_train1_egg-201b7c74113543d018f1.json",
+					"name" : "ament_cmake_python_build_gz_train1_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scripts_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scripts_egg-d82db3f0da8c8b6f3aee.json",
+					"name" : "ament_cmake_python_build_scripts_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_gz_train1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_gz_train1-b78c1cf12ccb71d8afa8.json",
+					"name" : "ament_cmake_python_copy_gz_train1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_scripts-e7f6cf2e14d5279a214f.json",
+					"name" : "ament_cmake_python_copy_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_sub-85a29a1fb2b4cd7d8dc7.json",
+					"name" : "gz_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gz_train1_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gz_train1_uninstall-6dfb535e08069d8b845e.json",
+					"name" : "gz_train1_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joy1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joy1-27a4d42cd9d9fa820160.json",
+					"name" : "joy1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "joy2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-joy2-28329592188ba520b4e0.json",
+					"name" : "joy2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slpub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slpub-75ed2ea7beb6f5dc0003.json",
+					"name" : "slpub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf2_broad::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf2_broad-ab3fa314b9cd466a4abd.json",
+					"name" : "tf2_broad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3990b9eb22d01ff93b54.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/d22/gz_projects/gz_ws/build/gz_train1",
+		"source" : "/home/d22/gz_projects/gz_ws/src/gz_train1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

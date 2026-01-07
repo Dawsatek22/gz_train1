@@ -1,0 +1,17 @@
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/launch/fws_robot_spawn.launch.py
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/worlds/fws_robot_world.sdf
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/ament_index/resource_index/package_run_dependencies/fws_robot_sim
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/ament_index/resource_index/parent_prefix_path/fws_robot_sim
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/environment/ament_prefix_path.sh
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/environment/ament_prefix_path.dsv
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/environment/path.sh
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/environment/path.dsv
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/local_setup.bash
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/local_setup.sh
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/local_setup.zsh
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/local_setup.dsv
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/package.dsv
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/ament_index/resource_index/packages/fws_robot_sim
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/cmake/fws_robot_simConfig.cmake
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/cmake/fws_robot_simConfig-version.cmake
+/home/d22/gz_projects/gz_ws/install/fws_robot_sim/share/fws_robot_sim/package.xml

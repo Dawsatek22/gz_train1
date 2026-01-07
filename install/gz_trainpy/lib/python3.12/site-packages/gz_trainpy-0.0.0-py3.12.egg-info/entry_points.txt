@@ -1,0 +1,4 @@
+[console_scripts]
+evpub = gz_trainpy.ev_pub:main
+tpub = gz_trainpy.test_pub:main
+tsub = gz_trainpy.test_sub:main

@@ -1,0 +1,23 @@
+[0.008s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/out1 -- -j20 -l20
+[0.039s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --build /home/d22/gz_projects/gz_ws/build/out1 -- -j20 -l20
+[0.045s] Invoking command in '/home/d22/gz_projects/gz_ws/build/out1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/out1
+[0.053s] -- Install configuration: ""
+[0.053s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/gazebo.launch.py
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/description.launch.py
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/display.launch.py
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_joint002_col_obj_zohxuk.dae
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_base003_col_obj_hpdclh.dae
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_joint1_ckncud.dae
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_base2_bnpdzh.dae
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz/robot_description.rviz
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf
+[0.054s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_sensors.urdf.xacro
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_wrapper.urdf.xacro
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof.urdf
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/cars_and_trees.sdf
+[0.055s] -- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/empty.sdf
+[0.056s] Invoked command in '/home/d22/gz_projects/gz_ws/build/out1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(pipbot) /usr/bin/cmake --install /home/d22/gz_projects/gz_ws/build/out1

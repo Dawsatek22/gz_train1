@@ -1,0 +1,44 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fb36898e23cd59b6bf92.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "urdf_sim_tutorial"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial",
+		"source" : "/home/d22/gz_projects/gz_ws/src/urdf_sim_tutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

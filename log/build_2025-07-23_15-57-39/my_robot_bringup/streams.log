@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/d22/gz_projects/gz_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/d22/gz_projects/gz_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/d22/gz_projects/gz_ws/install/my_robot_bringup
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.348s] -- Found Python3: /home/d22/miniconda3/bin/python3 (found version "3.13.2") found components: Interpreter 
+[0.422s] -- Configuring done (0.4s)
+[0.423s] -- Generating done (0.0s)
+[0.424s] -- Build files have been written to: /home/d22/gz_projects/gz_ws/build/my_robot_bringup

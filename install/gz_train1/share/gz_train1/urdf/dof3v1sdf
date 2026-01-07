@@ -1,0 +1,162 @@
+<sdf version='1.11'>
+  <model name='dof3v1'>
+    <link name='l_base001'>
+      <inertial>
+        <pose>0.065008347403493622 -0.009814147919627543 0.01352997036989665 0 0 0</pose>
+        <mass>0.063227267521538344</mass>
+        <inertia>
+          <ixx>3.006567329158298e-05</ixx>
+          <ixy>6.1449123351056909e-06</ixy>
+          <ixz>-4.321601858722078e-05</ixz>
+          <iyy>0.00027196958725750499</iyy>
+          <iyz>1.915671678487274e-06</iyz>
+          <izz>0.00028073044511680271</izz>
+        </inertia>
+      </inertial>
+      <collision name='l_base001_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_col_base_col_obj_dudcq4.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='l_base001_fixed_joint_lump__l_joint004_collision_1'>
+        <pose>0.092340700000001386 -0.1043413800000005 0.0080000000000000002 0 0 -1.5707963267948819</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_col_joint1_col_obj_0lditd.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='l_base001_visual'>
+        <pose>-0.187 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_base_dpzpl0.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='l_base001_fixed_joint_lump__l_joint004_visual_1'>
+        <pose>0.092340700000001386 -0.1043413800000005 0.0080000000000000002 0 0 -1.5707963267948819</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_joint1_e1tw2u.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='l_joint004__to__l_joint005' type='revolute'>
+      <pose relative_to='l_base001'>0.12711048999999991 -0.00094199999999998278 0.029885499999999999 -1.570796326794911 1.5707963267948966 0</pose>
+      <parent>l_base001</parent>
+      <child>l_joint005</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>3.1415926535897931</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='l_joint005'>
+      <pose relative_to='l_joint004__to__l_joint005'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-0.00131247 0.023883399999999999 -0.015406100000000001 3.1415926535897931 0 3.1415926535897931</pose>
+        <mass>0.086469917710791558</mass>
+        <inertia>
+          <ixx>6.0781552305842607e-05</ixx>
+          <ixy>6.7386326032877874e-07</ixy>
+          <ixz>6.1353770771171776e-07</ixz>
+          <iyy>2.6603287517361599e-05</iyy>
+          <iyz>-8.4327565373589905e-06</iyz>
+          <izz>5.5578327887159341e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name='l_joint005_collision'>
+        <pose>-0.0214424 0.039793700000000001 0 3.1415926535897931 0 3.1415926535897931</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_col_joint2_col_obj_kpgk1e.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='l_joint005_visual'>
+        <pose>-0.0214424 0.039793700000000001 0 3.1415926535897931 0 3.1415926535897931</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_joint2_cmhc3o.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='l_joint005__to__l_joint006' type='revolute'>
+      <pose relative_to='l_joint005'>0 0.041922599999999997 -0.059999999999999998 0 0 3.1415926535897931</pose>
+      <parent>l_joint005</parent>
+      <child>l_joint006</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>6.2831853071795862</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='l_joint006'>
+      <pose relative_to='l_joint005__to__l_joint006'>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>-5.1078800000000003e-05 -0.034081699999999999 -0.030587699999999999 -3.1415926535897931 1.5707963267948966 0</pose>
+        <mass>0.099433952513603957</mass>
+        <inertia>
+          <ixx>6.7195329682848143e-05</ixx>
+          <ixy>-1.719290633806631e-06</ixy>
+          <ixz>-2.241012327961892e-08</ixz>
+          <iyy>4.8912947865888618e-05</iyy>
+          <iyz>-1.494383348836139e-07</iyz>
+          <izz>0.0001027039241504814</izz>
+        </inertia>
+      </inertial>
+      <collision name='l_joint006_collision'>
+        <pose>0.014999999999999999 -0.080000000000000002 0 -3.1415926535897931 1.5707963267948966 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_col_joint3_col_obj_ruzol4.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='l_joint006_visual'>
+        <pose>0.014999999999999999 -0.080000000000000002 0 -3.1415926535897931 1.5707963267948966 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dof3v1/meshes/d22_3dof_urdftest_model1_joint3_x5ochc.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <frame name='l_base001__to__l_joint004' attached_to='l_base001'>
+      <pose>0.12590199999999999 -0.0082362800000000003 0.0080000000000000002 0 0 -1.5707963267948819</pose>
+    </frame>
+    <frame name='l_joint004' attached_to='l_base001__to__l_joint004'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>

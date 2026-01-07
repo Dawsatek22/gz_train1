@@ -1,0 +1,4 @@
+[console_scripts]
+line_follower = turtlebot3_line_follower.line_follower:main
+two_line_follower_node = turtlebot3_line_follower.two_line_follower_node:main
+yolo_detect = turtlebot3_line_follower.yolo_detect:main

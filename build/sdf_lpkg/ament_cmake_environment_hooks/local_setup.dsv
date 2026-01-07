@@ -1,0 +1,2 @@
+source;share/sdf_lpkg/environment/ament_prefix_path.sh
+source;share/sdf_lpkg/environment/path.sh

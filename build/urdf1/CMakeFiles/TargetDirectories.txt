@@ -1,0 +1,9 @@
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/uninstall.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/urdf1_uninstall.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/test.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/edit_cache.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/rebuild_cache.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/list_install_components.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/install.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/install/local.dir
+/home/d22/gz_projects/gz_ws/build/urdf1/CMakeFiles/install/strip.dir

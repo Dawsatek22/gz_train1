@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ef83e0f50c07c41568e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "ros_gz_interfaces__py",
+					"jsonFile" : "directory-ros_gz_interfaces__py-a315c3a11f11f010a939.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/d22/gz_projects/gz_ws/build/ros_gz_interfaces/ros_gz_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ros_gz_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ros_gz_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ros_gz_interfaces_egg-5ec6e43c3ff1bed5cf10.json",
+					"name" : "ament_cmake_python_build_ros_gz_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ros_gz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ros_gz_interfaces-17de4bfb476e8a055b23.json",
+					"name" : "ament_cmake_python_copy_ros_gz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces-3c20ff7b38ca3be75b53.json",
+					"name" : "ros_gz_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__cpp-2fe0d0b7b06a67dd9e0b.json",
+					"name" : "ros_gz_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ros_gz_interfaces__py::@b93d81c6a69733fd08cf",
+					"jsonFile" : "target-ros_gz_interfaces__py-cd78ac4bbd84d1d8af85.json",
+					"name" : "ros_gz_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_generator_c-5ceb534fe6bdc4476997.json",
+					"name" : "ros_gz_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_generator_py-da285254a5a3678b8ee8.json",
+					"name" : "ros_gz_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_generator_type_description-0e50c0f42bd32f04dc82.json",
+					"name" : "ros_gz_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_typesupport_c-091530868653a11da993.json",
+					"name" : "ros_gz_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_typesupport_cpp-fa2393f273aba0dc7305.json",
+					"name" : "ros_gz_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_typesupport_fastrtps_c-4643914483228e060617.json",
+					"name" : "ros_gz_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp-88e4b312a17436abbc44.json",
+					"name" : "ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_typesupport_introspection_c-921bbf977239caf321e5.json",
+					"name" : "ros_gz_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces__rosidl_typesupport_introspection_cpp-6002bf05deaaab22d376.json",
+					"name" : "ros_gz_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces_s__rosidl_typesupport_c-4d0021f088a7aba4d22d.json",
+					"name" : "ros_gz_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c-b8163eb28c2f8892c826.json",
+					"name" : "ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces_s__rosidl_typesupport_introspection_c-5bb1606181cb5f5ba78d.json",
+					"name" : "ros_gz_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros_gz_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros_gz_interfaces_uninstall-1f0f4fcfff9a94098018.json",
+					"name" : "ros_gz_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4478b7919045d386f5da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/d22/gz_projects/gz_ws/build/ros_gz_interfaces",
+		"source" : "/home/d22/gz_projects/gz_ws/ros_gz/ros_gz_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,6 @@
+/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial/CMakeFiles/edit_cache.dir
+/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial/CMakeFiles/rebuild_cache.dir
+/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial/CMakeFiles/list_install_components.dir
+/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial/CMakeFiles/install.dir
+/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial/CMakeFiles/install/local.dir
+/home/d22/gz_projects/gz_ws/build/urdf_sim_tutorial/CMakeFiles/install/strip.dir

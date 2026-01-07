@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/d22/gz_projects/gz_ws/build/out1
+-- Install configuration: ""
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/gazebo.launch.py
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/description.launch.py
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/display.launch.py
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_joint002_col_obj_zohxuk.dae
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_base003_col_obj_hpdclh.dae
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_joint1_ckncud.dae
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_base2_bnpdzh.dae
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz/robot_description.rviz
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_sensors.urdf.xacro
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_wrapper.urdf.xacro
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof.urdf
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/cars_and_trees.sdf
+-- Installing: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/empty.sdf

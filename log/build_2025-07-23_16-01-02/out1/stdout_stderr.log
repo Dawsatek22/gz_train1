@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/gazebo.launch.py
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/description.launch.py
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/launch/display.launch.py
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_joint002_col_obj_zohxuk.dae
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_col_base003_col_obj_hpdclh.dae
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_joint1_ckncud.dae
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/meshes/_dofmainurdftest1_base2_bnpdzh.dae
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/rviz/robot_description.rviz
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_sensors.urdf.xacro
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof_wrapper.urdf.xacro
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/urdf/1dof.urdf
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/cars_and_trees.sdf
+-- Up-to-date: /home/d22/gz_projects/gz_ws/install/out1/share/out1/worlds/empty.sdf
