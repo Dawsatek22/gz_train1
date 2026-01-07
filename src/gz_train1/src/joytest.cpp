@@ -49,7 +49,7 @@ void write_controler_state(controler_state *controler, js_event event) // this f
   case JS_EVENT_BUTTON:
 
   auto node = rclcpp::Node::make_shared("topic");
-  auto publisher = node->create_publisher<std_msgs::msg::Int32>("/joy1", 10);
+  auto publisher = node->create_publisher<std_msgs::msg::Int32>("joy1", 10);
   // below are the button commands to publish the message data.
   rclcpp::executors::SingleThreadedExecutor executor;
   executor.add_node(node);

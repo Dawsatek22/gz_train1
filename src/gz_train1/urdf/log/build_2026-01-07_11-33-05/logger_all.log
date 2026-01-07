@@ -1,0 +1,144 @@
+[0.095s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/d22/pipbot/bin/colcon', 'build', '--packages-select', 'gz_train1'][0m
+[0.096s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['gz_train1'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7af780a63f50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7af780a0dd90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7af780a0dd90>>)[0m
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.119s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf'
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.120s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.135s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.135s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.135s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.135s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.135s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.135s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'ignore'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'ignore_ament_install'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extensions ['colcon_pkg']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'colcon_pkg'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extensions ['colcon_meta']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'colcon_meta'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extensions ['ros']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'ros'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extensions ['cmake', 'python']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'cmake'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'python'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extensions ['python_setup_py']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY) by extension 'python_setup_py'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'ignore'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'ignore_ament_install'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extensions ['colcon_pkg']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'colcon_pkg'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extensions ['colcon_meta']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'colcon_meta'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extensions ['ros']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'ros'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extensions ['cmake', 'python']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'cmake'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'python'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extensions ['python_setup_py']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials) by extension 'python_setup_py'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'ignore'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'ignore_ament_install'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extensions ['colcon_pkg']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'colcon_pkg'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extensions ['colcon_meta']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'colcon_meta'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extensions ['ros']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'ros'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extensions ['cmake', 'python']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'cmake'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'python'
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extensions ['python_setup_py']
+[0.136s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/scripts) by extension 'python_setup_py'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'ignore'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'ignore_ament_install'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extensions ['colcon_pkg']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'colcon_pkg'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extensions ['colcon_meta']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'colcon_meta'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extensions ['ros']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'ros'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extensions ['cmake', 'python']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'cmake'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'python'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extensions ['python_setup_py']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/materials/textures) by extension 'python_setup_py'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'ignore'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'ignore_ament_install'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extensions ['colcon_pkg']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'colcon_pkg'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extensions ['colcon_meta']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'colcon_meta'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extensions ['ros']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'ros'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extensions ['cmake', 'python']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'cmake'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'python'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extensions ['python_setup_py']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/meshes) by extension 'python_setup_py'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'ignore'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'ignore_ament_install'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extensions ['colcon_pkg']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'colcon_pkg'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extensions ['colcon_meta']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'colcon_meta'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extensions ['ros']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'ros'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extensions ['cmake', 'python']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'cmake'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'python'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extensions ['python_setup_py']
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(EXPLORER_R2_VISUALS_ONLY/thumbnails) by extension 'python_setup_py'
+[0.137s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.138s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.138s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.138s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mignoring unknown package 'gz_train1' in --packages-select[0m
+[0.147s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.147s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.148s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[0.148s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[0.148s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[0.148s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[0.149s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[0.150s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.150s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.150s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify_send'
+[0.167s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[0.169s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/local_setup.ps1'
+[0.170s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/_local_setup_util_ps1.py'
+[0.171s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/setup.ps1'
+[0.173s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/local_setup.sh'
+[0.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/_local_setup_util_sh.py'
+[0.174s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/setup.sh'
+[0.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/local_setup.bash'
+[0.175s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/setup.bash'
+[0.176s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/local_setup.zsh'
+[0.178s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/d22/gz_projects/gz_ws/src/gz_train1/urdf/install/setup.zsh'
