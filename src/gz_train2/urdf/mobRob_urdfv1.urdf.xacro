@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<robot name="mobRob" xmlns:xacro="http://ros.org/wiki/xacro" xmlns:gz="http://gazebosim.org/schema">
+  <!-- Xacro parameters -->
+  <xacro:property name="chassis_size" value="1.2 0.8 0.3"/>
+  <xacro:property name="chassis_mass" value="0.5"/>
+  <xacro:property name="chassis_material" value="Purple"/>
+  <xacro:property name="wheel_radius" value="0.2"/>
+  <xacro:property name="wheel_width" value="0.2"/>
+  <xacro:property name="wheel_mass" value="0.5"/>
+  <xacro:property name="wheel_material" value="Red"/>
+  <xacro:property name="fl_x" value="0.4666666666666667"/>
+  <xacro:property name="fl_y" value="0.5"/>
+  <xacro:property name="fl_z" value="-0.15"/>
+  <xacro:property name="fr_x" value="0.4666666666666667"/>
+  <xacro:property name="fr_y" value="-0.5"/>
+  <xacro:property name="fr_z" value="-0.15"/>
+  <xacro:property name="rl_x" value="-0.4666666666666667"/>
+  <xacro:property name="rl_y" value="0.5"/>
+  <xacro:property name="rl_z" value="-0.15"/>
+  <xacro:property name="rr_x" value="-0.4666666666666667"/>
+  <xacro:property name="rr_y" value="-0.5"/>
+  <xacro:property name="rr_z" value="-0.15"/>
+  <xacro:property name="controller_type" value="diff_4w"/>
+  <xacro:property name="hardware_plugin" value="gz_ros2_control/GazeboSimSystem"/>
+  <xacro:property name="use_gazebo_sim" value="1"/>
+  <xacro:include filename="$(find mobRobURDF_description)/urdf/submodules/4_wheeled/mobRob_4w_diff.xacro"/>
+  <xacro:include filename="$(find mobRobURDF_description)/urdf/user_sensors.xacro"/>
+</robot>
